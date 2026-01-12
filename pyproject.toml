@@ -1,0 +1,19 @@
+[project]
+name = "netssm"
+version = "0.1.0"
+description = "A state-space model-based synthetic raw traffic generator."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "accelerate>=1.12.0",
+    "datasets>=4.4.1",
+    "gdown>=5.2.0",
+    "packaging>=25.0",
+    "pcap-splitter>=1.0.0",
+    "scapy>=2.6.1",
+    "torch==2.7.0",
+    "torchaudio>=2.7.0",
+    "torchvision>=0.22.0",
+    "transformers>=4.57.3",
+    "wheel>=0.45.1",
+]

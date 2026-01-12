@@ -1,0 +1,6 @@
+venv
+*.jsonl
+*.mod
+*.sum
+.ipynb_checkpoints
+.DS_Store
