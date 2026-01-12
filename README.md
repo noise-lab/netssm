@@ -1,6 +1,6 @@
 # NetSSM: Multi-Flow and State-Aware Network Trace Generation using State-Space Models
 
-This repository contains the code for our paper ["NetSSM: Multi-Flow and State-Aware Network Trace Generation using State-Space Models"](https://arxiv.org/pdf/2503.22663).
+This repository contains the code and datasets for our paper ["NetSSM: Multi-Flow and State-Aware Network Trace Generation using State-Space Models"](https://arxiv.org/pdf/2503.22663).
 
 * [Requirements](#requirements)
 * [Datasets](#datasets)
@@ -21,7 +21,7 @@ This repository contains the code for our paper ["NetSSM: Multi-Flow and State-A
 
 ## Datasets
 
-Datasets corresponding to Table 1 from the paper:
+PCAP datasets corresponding to Table 1 from the paper can be found at the below links:
 * Multimedia Traffic:
   * [Video Streaming](https://drive.google.com/file/d/1QsEOblt36uKY3qk0yDCMcxnqnXP1Jwpm/view?usp=share_link)
   * [Video Conferencing](https://drive.google.com/file/d/1_2t5lxzLNVAOg7MfQrWFB7coiAv-ZlAM/view?usp=share_link)
@@ -29,9 +29,11 @@ Datasets corresponding to Table 1 from the paper:
 * [Netflix Streaming](https://drive.google.com/file/d/1azHb6dDFGiHiIQAy4RixEMCe0KmuBKWx/view?usp=share_link)
 * [YouTube Streaming](https://github.com/Wimnet/RequetDataSet/tree/master)
 
-Please cite the respective dataset source in the folder README/repo if you use a dataset! Table 1 also provides a citation.
+Please cite the respective dataset source in the folder README/repo if you use a dataset. Table 1 from the paper also provides a citation.
 
 ## Google Colab Toy Example
+
+The Jupyter notebook at [`example/train_netssm_from_scratch.ipynb`](https://github.com/noise-lab/netssm/blob/main/example/train_netssm_from_scratch.ipynb) contains a thorough walkthrough of setting up dependencies, training NetSSM from scratch/resuming from a checkpoint, and generating synthetic PCAPs. We recommend opening the notebook in Google Colab. If run on one of the default Colab T4 GPUs, the training and generation steps of the notebook may take a few minutes. 
 
 ## Running the NetSSM pipeline from scratch
 ### Setup
